@@ -37,3 +37,4 @@ COPY ./Packages.R /Packages.R
 RUN chmod +x setup.sh
 RUN /setup.sh
 RUN rm setup.sh
+RUN rm Packages.R
